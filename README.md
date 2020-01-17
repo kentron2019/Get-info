@@ -6,7 +6,8 @@
 * List Network interfaces.
 * Show the operating system.
 * know your WAN IP address.
-* know your LAN IP address of all interfaces.  
+* know your LAN IP address of all interfaces. 
+* runs as a script or classmethod.  
 
 ## Python version required  
 
@@ -15,6 +16,9 @@ Use Python version higher or equal to 3.4.10
 **NOTE:**  
 
 The purpose of this script is to obtain a list of interfaces and their IPs (Private and Wan) in detail or abbreviated. It also provides the type of device operating system installed.  
+
+To facilitae the use of this code and be able to integrate it into other proyect, it is also available  
+as a classmethod.
 
 **Compatibility:**  
 
@@ -50,7 +54,7 @@ and:
 2- pip the specified pakages listed in the requirements.txt  
 
 
-## Usage 
+## Usage of script Get-info.py
   
 	python3 Get-info help
 	python3 Get-info.py interfaces
@@ -125,6 +129,10 @@ and:
 
     `IP WAN detected: `
     ` xxx.xxx.xxx.xxx`
+
+## Usage as modul or class
+
+    See Example: test-class.py
 
 
 ## Maintainer
